@@ -35,7 +35,7 @@ export default function HomePage() {
         </div>
         <div className="flex items-center gap-4">
           <Link href="/auth/login" className="text-gray-300 hover:text-white text-sm transition-colors">Sign in</Link>
-          <Link href="#pricing" className="btn-red text-sm px-5 py-2">Get access — £99</Link>
+          <Link href="#pricing" className="btn-red text-sm px-5 py-2">Get access — £19.99</Link>
         </div>
       </nav>
 
@@ -59,7 +59,7 @@ export default function HomePage() {
               Preview Module 1 — Free
             </Link>
             <Link href="#pricing" className="bg-black text-white font-bold px-8 py-4 rounded-lg hover:bg-gray-800 transition-colors text-center">
-              Get full access — £99
+              Get full access — £19.99
             </Link>
           </div>
 
@@ -156,7 +156,7 @@ export default function HomePage() {
           <p className="text-gray-600 mb-10">One payment. Lifetime access. Start today.</p>
 
           <div className="border-2 border-brand-red rounded-2xl p-8 mb-6">
-            <div className="text-5xl font-bold mb-2">£99</div>
+            <div className="text-5xl font-bold mb-2">£19.99</div>
             <div className="text-gray-500 mb-8">one-time payment</div>
             <ul className="text-left space-y-3 mb-8">
               {[
@@ -210,7 +210,7 @@ function CheckoutButton() {
   }
   return (
     <button onClick={handleCheckout} className="w-full btn-red text-lg py-4 rounded-xl">
-      Buy now — £99
+      Buy now — £19.99
     </button>
   )
 }
