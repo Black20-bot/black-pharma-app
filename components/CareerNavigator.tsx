@@ -48,7 +48,7 @@ const INTERESTS = [
 ];
 
 const SECTORS = [
-  { id: "all",    label: "All sectors",      icon: "🌐" },
+  
   { id: "pharma", label: "Pharma & Biotech",  icon: "💊" },
   { id: "nhs",    label: "NHS & Healthcare",  icon: "🏥" },
   { id: "tech",   label: "Health Tech & AI",  icon: "💻" },
@@ -135,7 +135,7 @@ export default function CareerNavigator() {
   const [otherDegree, setOtherDegree] = useState("");
   const [selectedExperiences, setSelectedExperiences] = useState<string[]>([]);
   const [selectedInterests, setSelectedInterests] = useState<string[]>([]);
-  const [selectedSector, setSelectedSector] = useState("all");
+  const [selectedSector, setSelectedSector] = useState("pharma");
   const [results, setResults] = useState<Results | null>(null);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState("");
